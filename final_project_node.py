@@ -9,6 +9,10 @@ from rclpy.qos import qos_profile_sensor_data
 from turtlebot4_navigation.turtlebot4_navigator import TurtleBot4Directions, TurtleBot4Navigator
 import time
 
+
+#RUN THIS COMMAND AND DOCK ROBOT BEFORE STARTING!!! "ros2 launch turtlebot4_bringup rplidar.launch.py"
+
+
 class FinalProject(Node):
     '''
     Node class that controls the robot, 
